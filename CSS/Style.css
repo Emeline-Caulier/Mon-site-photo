@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+/* Dévut de bannière */
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+#menudenavigation a:hover{
+    background-color: aliceblue;
+    color: rgb(45, 45, 134);
+    padding: 20px 40px 20px 40px;
+}
+
+#menudenavigation li a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+#imagebannière{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: #9cdbff;
+}
+
+#menudenavigation{
+    background-color: rgb(5, 45, 110);
+}
+hr{
+    color: blue;
+    height: 5px;
+}
+/* Fin de bannière */
+
+/* Début de pied de page */
+footer{
+    padding-top: 10px;
+    background-color: #9cdbff;
+    border-top: rgb(0, 0, 0) solid 2px;
+ 
+}
+.logo{
+    height: 20px;
+}
+footer pre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+pre a{
+    
+    text-decoration: none;
+    color: black; 
+}
+
+footer p{
+    padding : 10px;
+    display: flex;
+    justify-content: end;
+   
+}
+footer a:hover{
+    color: rgb(2, 84, 226);
+    font-size: large;
+    
+}
+/* Fin de pied de page */
+
+
+/* Début du main général à toutes les pages */
+main{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    padding: 50px 0px  50px 0px;
+} 
+h2{
+    padding: 0px 0px 25px 0px;
+    font-style: italic;
+    color: #17186e;
+}
+/* fin du main général à toutes les pages */
+
+
+/* Début du main index*/
+
+#photoaccueil{
+    height: 750px;
+    padding: 0px 235px 0px 235px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-items: center;
+}
+#citation{
+    padding: 50px 0px 100px 0px;
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+}
+/* Fin du main index */
+
+
+/* début du main A propos de l'auteur */
+#motphotoauteur{
+    padding: 0px 100px 50px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#motphotoauteur p{
+    padding: 10px;
+    font-size: larger;
+}
+
+#photoauteur{
+    height: 400px;
+}
+
+
+
+#motphotoauteur figure{
+    text-align: center;
+    font-style: italic;
+    padding: 50px;
+}
+/* Fin du main A propos de l'auteur */
+
+
+/* Debut du main Evènement */
+table{
+    margin : 0px auto 0px auto;
+    padding-bottom: 50px;
+    font-size: large;
+    
+}
+table tr{
+    height: 80px;
+    background-color: #9c9ec93e;
+}
+
+table td{
+    padding-left: 25px;
+}
+
+.colonne1{
+    width: 400px;
+    text-align: center;
+}
+.colonne2{
+    width: 700px;
+}
+table thead{
+    font-size: x-large;
+    background-color: #0c105992;
+    color: aliceblue;
+}
+
+/* Fin du main Evènement */
+
+
+/* Debut du main Newsletter */
+#newletter{
+    padding: 0px 250px 50px 250px;
+    text-align: left;
+}
+
+#newletter p{
+    padding: 10px;
+    font-size: large;
+}
+/* Fin du main Newsletter */
+#formnewletter{
+    padding: 20px 40px 0px 10px;
+    font-size: large;
+}
+#formnewletter input{
+    height: 20px;
+    width: 300px;
+}
+button{ 
+    background-color: #020471a7;
+    height: 30px;
+    width: 100px;
+    border: #e6e9ea;
+    border-style: double;
+    color: aliceblue;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+/* Debut du main Contact */
+#contact{
+    padding: 0px 250px 50px 250px;
+    text-align: left;
+}
+
+#contact p{
+    font-size: large;
+} 
+
+#titreformulairedecontact{
+    padding-top: 50px
+}
+#formulaire{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+#formulaire input{
+    height: 30px;
+    width: 200px;
+}
+#formulaire select{
+    height: 30px;
+}
+#formulaire option{
+    height: 30px;
+}
+#formulaire section{
+    padding: 15px;
+}
+
+/* Fin du main Contact */
+
+
+
+
